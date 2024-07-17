@@ -43,4 +43,24 @@ module.exports = {
     message: "没有管理员权限",
     result: "",
   },
+  uploadFileError: {
+    code: "10201",
+    message: "商品图片上传失败",
+    result: "",
+  },
+  unSupportedFileType: {
+    code: "10202",
+    message: "不支持图片文件格式",
+    result: "",
+  },
+  goodsFormatError: {
+    code: "10203",
+    message: "商品参数格式错误",
+    result: "",
+  },
+  getProductDetailError: {
+    code: "10204",
+    message: "获取商品详情失败",
+    result: "",
+  },
 };
