@@ -6,7 +6,7 @@ module.exports = {
         goods_name: { type: "string", required: true, desc: "商品名称" },
         goods_price: { type: "number", required: true, desc: "商品价格" },
         goods_num: { type: "number", required: true, desc: "商品描述" },
-        goods_image: { type: "string", required: true, desc: "商品图片" },
+        goods_img: { type: "string", required: true, desc: "商品图片" },
       });
     } catch (error) {
       goodsFormatError.result = error;

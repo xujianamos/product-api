@@ -21,6 +21,7 @@ app.use(
       // 保留文件扩展名
       keepExtensions: true,
     },
+    parsedMethods: ["POST", "PUT", "PATCH", "DELETE"],
   })
 );
 
