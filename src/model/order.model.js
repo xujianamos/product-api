@@ -36,5 +36,5 @@ const Order = seq.define("zd_orders", {
 });
 // 创建表
 // node ./src/model/order.model.js
-Order.sync({ force: true });
+// Order.sync({ force: true });
 module.exports = Order;
